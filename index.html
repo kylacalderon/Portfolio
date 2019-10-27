@@ -1,39 +1,36 @@
 <!DOCTYPE html5>
 <html>
-    <style>
-        @media (max-width: 28.75em) {
-  .nav {
-    justify-content: center;
-  }
-}
+    <style> 
+    @media (max-width: 28.75em) {
+            .nav {
+              justify-content: center;
+            }
+        }
     </style>
     <head>
-        <link rel="stylesheet" href="index.css" type="text/css">
-        <header id="header">
-            <h1 id="title">EnneaDate</h1>
-            <nav id="nav-bar">
-                    <ul>
-                        <li><a class="nav-link" href=#yourtype>Find Out Your Type</a></li>
-                        <li><a class="nav-link" href=#moreinformation>Find Out More About the Enneagram</a></li>
-                        <li><a class="nav-link" href=#app>Download Our App</a></li>
-                    </ul>
-                </nav>
-            <img id="header-img" src="https://s3.amazonaws.com/kajabi-storefronts-production/blogs/4057/images/6BIMq8kSUawBOXJgvH4x_Screen_Shot_2019-01-09_at_2.05.54_PM.png" alt="enneagram chart"/>
-        </header>
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Lobster&display=swap" rel="stylesheet">
     </head>
-        <body>
-            <div>
-                <h2>Sign up for your free trial today!</h2>
-            </div>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input name="email" id="email" type="email" placeholder="Enter your email address"/>
-            <input id="submit" type="submit" value="Meet Your Match" class="button"/>
-            </form>
-            <div id="yourtype">Click here to take the Enneagram test to find out what type you are</div>
-            <div id="moreinformation">
-                <iframe id="video" src="https://www.youtube.com/watch?v=IlHLjfJjH5I"></iframe>
-                </div>
-            <div id="app"></div>
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-        </body>
+    <header>
+        <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#personalinfo">About Me</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id="welcome-section">
+        <h1>My Name is Kyla Cal</h1>
+        <p class="intro">...and I am a #codergirl </p>
+    </section>
+    <section id="projects">
+        <h2 class="project-header">Here I present my projects</h2>
+        <div id="projects">
+            <a id="profile-link" href="https://kylacalderon.github.io/Survey-Form/" target="_blank" class="project-tile"><img class="project-image" src=""></a>
+            <p class="project-title">
+                Survey Form
+            </p>
+        </div>
+    </section>
+    <body><script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script></body>
 </html>

@@ -1,42 +1,27 @@
-body {
-    background-color: #875D85;
-    font-family: Arial;
-    font-size: 25px;
-    line-height: 1;
+#header-img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#nav-bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 10px;
 }
 
-h1 {
-    display: block;
-    font-family: 'Lobster', cursive;
-    font-size: 100px;
-    font-weight: 300;
+#title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-.intro {
-    display: block;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 50px;
-    font-weight: 100;
-    text-align: center;
-    padding: -40px;
-}
-
-.nav-list {
-    text-align: right;
+.nav-link {
     display: flex;
     flex-direction: row;
-    list-style: none;
-    top: 50%;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row-reverse;
-    
-}
-
-.project-header {
-    text-align: center;
-    padding: 100px;
+    justify-content: space-between;
 }
